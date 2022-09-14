@@ -9,6 +9,9 @@
         <title>Avaleht</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+        
         <!-- minu CSS -->
         <link rel="stylesheet" href="custom.css">
     </head>
@@ -55,6 +58,9 @@
                             <a class="dropdown-item" href="#">Niisutus ja toitmine</a> 
                             <a class="dropdown-item" href="#">Koorijad ja maskid</a> 
                         </div> 
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="about.html">Meist</a> 
                     </li> 
                 </ul>
                 <!-- search -->
@@ -82,6 +88,12 @@
         </section>
         <!-- jumbotron --->
         <!-- TODO! --->
+        <div class="jumbotron shadow some-gray-box">
+            <h4 class="some-gray-box-text text-dark">
+                "Bootstrap 4 on parim 2in1 toode, mis teeb su naha kui ka veebilehe ilusaks."
+            </h4>
+            <img class="some-gray-box-image" src="DalaiLama.jpg"/>
+        </div>
         <!-- tooted --->
         <section>
             <div class="container">
@@ -147,9 +159,17 @@
         <!-- jalus --->
         <footer class="bg-light">
             <div class="container-fluid">
-                <div class="row">
+                <div class="row footer">
                     <!-- TODO! --->
-                    <div class="col-lg-12 text-center"><p>Jalus</p></div>
+                    <div>
+                        <button type="button" class="btn social-button facebook"><i class="fa fa-facebook fa-2x"></i></button>
+                        <button type="button" class="btn social-button youtube"><i class="fa fa-youtube fa-2x"></i></button>                                        
+                        <button type="button" class="btn social-button twitter"><i class="fa fa-twitter fa-2x"></i></button>
+                    </div>
+                    <div class="contact-info">
+                        <p>+372 5123456</p>
+                        <p>bootstrap4@info.ee</p>
+                    </div>
                 </div>
             </div>
         </footer>       

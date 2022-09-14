@@ -36,3 +36,62 @@ footer {
     margin-top: 60px;
     padding: 5em;
 }
+
+.some-gray-box {
+    background-color: #0000000a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.some-gray-box-text {
+    width: 300px;
+    text-align: justify;
+}
+
+.some-gray-box-image {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.social-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.btn.facebook {
+    color: #1774e4;
+}
+
+.btn.youtube {
+    color: #fc0018;
+}
+
+.btn.twitter {
+    color: #289ced;
+}
+
+.contact-info {
+    text-align: end;
+}
+
+.row.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.container.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#carouselExampleControls {
+    width: 300px;
+}

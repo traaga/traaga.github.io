@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content=""> 
         <meta name="author" content="">
-        <title>Ostukorv</title>
+        <title>Meist</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
         
@@ -58,10 +58,10 @@
                             <a class="dropdown-item" href="#">Niisutus ja toitmine</a> 
                             <a class="dropdown-item" href="#">Koorijad ja maskid</a> 
                         </div> 
-                    </li> 
+                    </li>
                     <li class="nav-item"> 
                         <a class="nav-link" href="about.html">Meist</a> 
-                    </li>
+                    </li> 
                 </ul>
                 <!-- search -->
                 <form class="form-inline m-2 my-lg-0">
@@ -77,92 +77,37 @@
             <nav aria-label="breadcrumb" >
                 <ol class="breadcrumb bg-white my-2">
                     <li class="breadcrumb-item"><a href="index.html">Avaleht</a></li>
-                    <li class="breadcrumb-item active">Ostukorv</li>
+                    <li class="breadcrumb-item active">Meist</li>
                 </ol>
             </nav>
         </section>
         <!-- ostukorv -->
         <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 d-flex align-items-start flex-column">
-                        <div class="mb-auto p-2"><h4>Ostukorvis on 1 toode</h4></div>    
-                        <div class="mb-auto p-2 row">
-                            <div class="col-lg-6">
-                                <img src="soap.png" width="100%">
-                            </div>
-                            <div class="col-lg-6">
-                                <p>15.99&#8364;</p>
-                                <p>Toode 1</p>
-                                    <select class="form-control col-lg-5 form-sm" id="kogus">
-                                        <option>0</option>
-                                        <option selected="selected">1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                    </select>
-                                <br/>
-                            </div>            
-                        </div>
-                        <div class="p-2">
-                            <p>Tarne: <span class="text-primary">tasuta</span></p>
-                            <p>Kokku: <span class="text-primary">15.99&#8364;</span></p>
-                        </div>
-                        <div class="p-2 mx-auto">
-                            <a href="kinnitus.html" class="btn btn-dark btn-lg mb-3">Maksa</a>
-                        </div>
+            <div class="container about">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="cat.jfif" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="cat2.jfif" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="cat3.jfif" alt="Third slide">
+                      </div>
                     </div>
-                    <div class="col-lg-6">
-                    <!-- TODO! --->
-                        <form>
-                            <div class="form-group">
-                                <label>Nimi</label>
-                                <input type="text" class="form-control" placeholder="Lisa nimi">
-                            </div>
-                            <div class="form-group">
-                                <label>Email address</label>
-                                <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Lisa email">
-                            </div>
-                            <div class="form-group">
-                                <label>Transport</label>
-                                <select class="form-control col-lg-5 form-sm">
-                                    <option selected="selected">Tulen ise järele</option>
-                                    <option>Pakiautomaat</option>
-                                    <option>Tuviga</option>
-                                </select>
-                            </div>
-                            <fieldset class="form-group">
-                                <div class="row">
-                                  <legend class="col-form-label col-sm-2 pt-0">Makseviis</legend>
-                                  <div class="col-sm-10">
-                                    <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                      <label class="form-check-label" for="gridRadios1">
-                                        Pangakaart
-                                      </label>
-                                    </div>
-                                    <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                      <label class="form-check-label" for="gridRadios2">
-                                        Jäse(med)
-                                      </label>
-                                    </div>
-                                    <div class="form-check disabled">
-                                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                      <label class="form-check-label" for="gridRadios3">
-                                        Sularaha
-                                      </label>
-                                    </div>
-                                  </div>
-                                </div>
-                              </fieldset>
-                            <div class="form-group form-check">
-                                <input type="checkbox" checked class="form-check-input">
-                                <label class="form-check-label">Olen robot</label>
-                            </div>
-                            <button type="submit" class="btn btn-dark btn-lg mb-3">Salvesta</button>
-                        </form>
-                    </div>           
-                </div>   
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h4 class="some-gray-box-text text-dark">
+                    Bootstrap 4 firma tooteid valmistavad käsitööna teile ainult kõige nunnumad kassikesed.
+                </h4>
             </div>
         </section>
         <!-- jalus -->
